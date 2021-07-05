@@ -1,11 +1,11 @@
 image:
   file: Dockerfile
 
-# # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-# ports:
-#   - port: 8002
-#   - port: 9001
-#   - port: 15672
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 8002
+  - port: 9001
+  - port: 15672
 
 # tasks:
 #   name: "Services"
