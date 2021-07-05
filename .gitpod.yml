@@ -8,7 +8,7 @@ ports:
   - port: 15672
 
 tasks:
-  name: "Services"
-  command: service nginx start &
+  - name: "Services"
+    command: service nginx start &
             cd /workspace/magento2gitpod && /usr/sbin/php-fpm7.4 --fpm-config php-fpm.conf &
             sudo supervisord &
